@@ -1,0 +1,24 @@
+@media (max-width: 992px) {
+    
+    header {
+        display: none;
+    }
+    #heading_two .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px;
+    }
+    
+    #heading_two .container .mobile_menu{
+        display: flex;
+        align-items: center;
+        line-height: 0;
+    }
+    .offcanvas{
+        max-width: 300px;
+        width: 100%;
+    }
+
+
+}
