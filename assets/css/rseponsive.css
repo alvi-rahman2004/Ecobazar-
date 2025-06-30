@@ -20,5 +20,33 @@
         width: 100%;
     }
 
+    .offcanvas .dropdown-toggle::after{
+        display: none;
+    }
+    .offcanvas .dropdown-toggle{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 12px 20px;
+        border-radius: 20px;
+        margin-bottom: 6px;
+    }
+    .offcanvas .dropdown-toggle span{
+        line-height: 0;
+    }
+    .offcanvas .dropdown-toggle:hover{
+        color: #00b207;
+        outline: 1px solid #618062;
+        transition: 0.5s ease;
+    }
+    .offcanvas .dropdown-menu{
+        width: 100%;
+        margin: 0;
+        border-radius: 20px;
+        border: 1px solid #00b20691;
+    }
+    .offcanvas .dropdown-menu a{
+        padding: 10px 4px;
+    }
 
 }
