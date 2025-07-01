@@ -308,6 +308,7 @@ header .heading_one_content_two .sign_in a {
     align-items: center;
     text-align: center;
     transition: 0.4s ease;
+    overflow: hidden;
 }
 #search.search_active{
     height: 100vh;
