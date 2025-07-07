@@ -82,5 +82,18 @@
         display: none !important;
     }
 
+    /* PRODUCT SLIDERS */
+    #product_slider .product_child{
+        text-align: center !important;
+    }
+    /* PRODUCT SLIDERS END  */
+
+     #product_slider .prev{
+        display: none !important;
+    }
+    #product_slider .next{
+        display: none !important;
+    }
+
 
 }

@@ -24,4 +24,46 @@ $(function () {
         autoplaySpeed: 2000,
     });
 
+    // *PRODUCT *
+    $('.product_parent_slider').slick({
+        dots: true,
+        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        arrows: true,
+        prevArrow: `<span class="prev"><iconify-icon icon="tdesign:arrow-left" width="24" height="24"></iconify-icon></span>`,
+        nextArrow: `<span class="next"><iconify-icon icon="tdesign:arrow-right" width="24" height="24"></iconify-icon></span>`,
+         responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      }
+    }
+  ]
+    });
+    // *PRODUCT END*
+
+    // * TOOLTIP *
+    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+    const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    // * TOOLTIP END*
+
 })
