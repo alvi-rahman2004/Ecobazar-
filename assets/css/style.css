@@ -93,7 +93,7 @@ header .heading_one_content_two .sign_in a {
     width: 80%;
     padding: 12px 12px 12px 40px;
     border: 1px solid #808080;
-    border-radius: 6px;
+    border-radius: 6px 0 0 6px;
 }
 
 #heading_two .heading_two_content input:focus {
@@ -318,7 +318,7 @@ header .heading_one_content_two .sign_in a {
 }
 
 #search.search_active {
-    height: 100vh;
+    height: 100%;
 }
 
 #search form input {
@@ -599,6 +599,7 @@ header .heading_one_content_two .sign_in a {
 
 #product_slider .product_child {
     position: relative;
+ 
 }
 
 #product_slider .product_child .offer {
