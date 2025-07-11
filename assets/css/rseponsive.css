@@ -95,4 +95,16 @@
     }
 
 
+    #product{
+        text-align: center;
+    }
+    #product .product_contein{
+        padding: 0;
+    }
+
+    #product .container{
+        padding: 30px;
+    }
+
+
 }

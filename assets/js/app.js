@@ -66,4 +66,8 @@ $(function () {
     const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
     // * TOOLTIP END*
 
+    // * PRODUCT START *
+    $('.category-button').categoryFilter();
+    // * PRODUCT END *
+
 })
