@@ -79,4 +79,44 @@ $(function () {
   });
   // * TIMER END*
 
+  // * ADD CART SLIDER*
+  $('.slider-for').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    fade: true,
+    asNavFor: '.slider-nav'
+  });
+  $('.slider-nav').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    asNavFor: '.slider-for',
+    dots: true,
+    centerMode: true,
+    focusOnSelect: true,
+    dots: false,
+    vertical: true,
+    centerMode: false,
+    centerPadding: '0px',
+    arrows: true,
+    prevArrow: `<span class="up_arrow"><iconify-icon icon="solar:alt-arrow-up-linear" width="24" height="24"></iconify-icon></span>`,
+    nextArrow: `<span class="down_arrow"><iconify-icon icon="solar:alt-arrow-down-linear" width="24" height="24"></iconify-icon></span>`,
+
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+         vertical: false,
+        }
+      },
+    ],
+  });
+  // * ADD CART SLIDER end*
+
+
+  
+$(function(){
+  $(".example").imagezoomsl();
+});
+
 })

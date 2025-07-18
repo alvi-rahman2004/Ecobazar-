@@ -137,14 +137,33 @@
     }
 
 
-    #counter{
+    #counter {
         background: #edf2ee !important;
         padding: 20px;
     }
-    #counter .countDown li{
+
+    #counter .countDown li {
         padding: 10px;
     }
-    #counter .countDown li:first-child{
+
+    #counter .countDown li:first-child {
         margin-left: -20px;
+    }
+
+
+
+
+
+
+    #add_card .up_arrow {
+        display: none !important;
+    }
+
+    #add_card .down_arrow {
+        display: none !important;
+    }
+    .magnifier{
+        left: 50% !important;
+        transform: translateX(-50%);
     }
 }
