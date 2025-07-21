@@ -162,8 +162,34 @@
     #add_card .down_arrow {
         display: none !important;
     }
-    .magnifier{
+
+    .magnifier {
         left: 50% !important;
         transform: translateX(-50%);
+    }
+
+    #drink{
+        padding-top: 30px;
+    }
+    #drink .boxes {
+        flex-direction: column;
+        padding-top: 30px;
+        justify-content: center;
+    }
+
+    #drink .box-1 {
+        width: 100%;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+
+    #drink .box-2 {
+        width: 100%;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+    #drink .box-3{
+        width: 100%;
+        margin-left: 10px;
     }
 }
