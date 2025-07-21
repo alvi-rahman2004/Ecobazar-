@@ -106,7 +106,7 @@ $(function () {
       {
         breakpoint: 768,
         settings: {
-         vertical: false,
+          vertical: false,
         }
       },
     ],
@@ -114,9 +114,19 @@ $(function () {
   // * ADD CART SLIDER end*
 
 
-  
-$(function(){
-  $(".example").imagezoomsl();
-});
 
+  $(function () {
+    $(".example").imagezoomsl();
+  });
+
+
+
+
+  // ** VENOBOX *
+  $('.venobox').venobox({
+
+  });
+
+  new VenoBox();
+  // ** VENOBOX END*
 })

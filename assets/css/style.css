@@ -1274,9 +1274,10 @@ header .heading_one_content_two .sign_in a {
     padding: 0;
 }
 
-#drink .box-3 .details{
+#drink .box-3 .details {
     padding-left: 32px;
 }
+
 #drink .box-3 .details h5 {
     font-family: var(--font-family);
     font-weight: 500;
@@ -1320,4 +1321,122 @@ header .heading_one_content_two .sign_in a {
 }
 
 /* BOX -2 END */
+
+
 /* DRINK END */
+
+/* VIDEO START */
+#video .heading h4 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 120%;
+    text-align: center;
+    color: var(--gren-gray-scale-900);
+    margin-bottom: 43px;
+}
+
+#video {
+    background-color: #EDF2EE;
+    /* padding: 100px; */
+}
+
+#video .client_review {
+    background-color: #fff;
+    padding: 32px;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+}
+
+#video .client_review::after {
+    content: "";
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    background-color: #fff;
+    transform: rotate(45deg) translateX(-50%);
+    bottom: -17px;
+    left: 50%;
+}
+
+#video .client_review p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: var(--gren-gray-scale-600);
+    margin: 0;
+    padding-top: 24px;
+}
+
+#video .client_img {
+    text-align: center;
+    padding-top: 16px;
+}
+
+#video .client_img h4 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: var(--gren-gray-scale-900);
+    margin-bottom: 0;
+    padding-top: 14px;
+}
+
+#video .client_img p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: var(--gren-gray-scale-500);
+}
+
+#video .container {
+    position: relative;
+    padding-bottom: 300px;
+}
+
+#video .information {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 250px;
+    width: 100%;
+    background-position: center;
+    transform: translateY(50%);
+    top: 21%;
+}
+
+#video .information p {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--gray-scale-white);
+}
+
+#video .information h4 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 120%;
+    text-align: center;
+    color: var(--gray-scale-white);
+}
+
+#video .information a{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* VIDEO END */
